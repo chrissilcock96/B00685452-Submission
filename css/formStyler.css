@@ -1,0 +1,127 @@
+#formContainer {
+    width: 75%;
+    border-style: solid;
+    padding: 0.375rem 0.75rem;
+    border-radius: 5px;
+;
+
+}
+
+#formContainer2 {
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+;
+
+}
+
+#formContainer3 {
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
+;
+
+}
+
+#formHeader {
+
+
+}
+
+
+.form-control2 {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.rounded {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 0.375rem 0.75rem;
+    background: #ced4da;
+}
+
+--------------------------------------
+
+div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+    display: flex;
+}
+
+.left-half {
+
+    flex: 1;
+    padding: 1rem;
+}
+
+.right-half {
+    flex: 1;
+    padding: 1rem;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.bannerDiv {
+    width: 70%;
+
+}
+
+.content { padding-top: 70px; }
+
+
+.navbar-blue .navbar-nav > li.active:not(.disabled) > a,.navbar-blue .navbar-nav > li.open:not(.disabled) > a,.navbar-blue .navbar-nav > li:not(.disabled) > a:focus,.navbar-blue .navbar-nav > li:not(.disabled) > a:hover {
+    color:white;
+    background-color:#1E5FE0;
+}
+.navbar-blue .navbar-nav > li.active:not(.disabled) > a,.navbar-blue .navbar-nav > li.open:not(.disabled) > a,.navbar-blue .navbar-nav > li:not(.disabled) > a:focus,.navbar-blue .navbar-nav > li:not(.disabled) > a:hover {
+    border-left-width: 5px;
+    color: white;
+    padding-left: 10px;
+}
+
+.navbar-blue {
+    background-color: blue;
+    border-color: white;
+    border-radius: 0;
+    margin-bottom: 0;
+    z-index: 100;
+}
+.navbar-blue .navbar-brand {
+    color:white;
+}
+.navbar-blue .navbar-brand:hover {
+    color:white;
+}
+.navbar-blue  .navbar-link {
+    color:white
+}
